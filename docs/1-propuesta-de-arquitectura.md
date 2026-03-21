@@ -22,4 +22,4 @@ con rabbitMQ veo desacoplamiento, rendimientos automaticos y puedo escalar cuent
 
 tambien e pensado utilizar http directo pero si accounts falla las transacciones tambien fallarian 
 
-Otra opcion seria kafka que de acuerdo a las docummentaciones es mas potente pero por la repides de la implementacion aun no lo implementaria por la urgencia reportada, tamvez me llevaria mas tiempo 
+Otra opcion seria kafka que de acuerdo a las docummentaciones es mas potente pero por la repides de la implementacion aun no lo implementaria por la urgencia reportada, tamvez me llevaria mas tiempo.
