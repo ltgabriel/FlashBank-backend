@@ -3,7 +3,7 @@
 la tabla de transactions tiene ciento de millones de registros, cada vez que un usuario abre la app se ase un select pesado para mostrar el historial, esto deja el CPU al 95%
 
 # MI SOLUCION
-separo la base de datos de lectura de la de escritura.
+aplico CQRS (separo la base de datos de lectura de la de escritura)
     *base de escritura*
         - sigue siendo la tabla de transactions normalizada
         - optimizada para insert rapidos
