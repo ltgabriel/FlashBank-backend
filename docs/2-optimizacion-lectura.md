@@ -15,3 +15,6 @@ separo la base de datos de lectura de la de escritura.
     un worker cada 1 a 2 segundos copia los datos de la base de escritura a la base de lectura.
 
 # como queda la tabla lectura
+La tabla de lectura tiene los campos que se usan: Id, accoundId amount,type,status, createdat, descripcion. le pongo un indice accountid y createdat para que las consultas sean rapidas.
+
+Con esto las consultas GET ya no tocan la tabla gigante y el consumo de CPU reportado deberia bajar.
